@@ -11,4 +11,4 @@ module.exports = function recursion(tree) {
   }
   preOrder(tree, 0);
   return arr;
-}
+};

@@ -8,4 +8,4 @@ module.exports = function make(...args) {
     return arr.reduce(args2[0]);
   }
   return inner;
-}
+};
