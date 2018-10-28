@@ -1,4 +1,4 @@
-function recursion(tree) {
+module.exports = function recursion(tree) {
   const arr = [];
   function preOrder(node, level) {
     if (node == null) return;

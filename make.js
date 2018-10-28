@@ -1,7 +1,7 @@
-function make(...args) {
+module.exports = function make(...args) {
   const arr = [...args];
   function inner(...args2) {
-    if (typeof args2[0] !== "function") {
+    if (typeof args2[0] !== 'function') {
       arr.push(...args2);
       return inner;
     }
